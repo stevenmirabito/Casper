@@ -35,7 +35,7 @@ if (disqus_short_name !== '') {
  * Profile Links
  */
 var linkContainers = document.getElementsByClassName('profile-links');
-if (document.contains(linkContainers)){
+if (document.body.contains(linkContainers)){
     for (var container = 0; container < linkContainers.length; container++) {
         for (var link = 0; link < profile_links.length; link++) {
             var element = document.createElement('a');
