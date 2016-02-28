@@ -38,9 +38,9 @@ var linkContainers = document.getElementsByClassName('profile-links');
 for (var container = 0; container < linkContainers.length; container++) {
     for (var link = 0; link < profile_links.length; link++) {
         var element = document.createElement('a');
-        element.href = profile_links[link][0];
+        element.href = profile_links[link][1];
         element.target = '_blank';
-        element.innerHTML = '<i class="fa fa-' + profile_links[link][1] + '"></i>';
+        element.innerHTML = '<i class="fa fa-' + profile_links[link][0] + '"></i>';
         linkContainers[container].appendChild(element);
     }
 }
