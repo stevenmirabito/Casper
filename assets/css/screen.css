@@ -910,18 +910,23 @@ body.nav-opened .nav {
 .home-template .blog-logo {
     opacity: 0;
     animation-fill-mode: forwards;
-    -webkit-animation: fade-in-down 0.6s 0.3s forwards;
-    animation: fade-in-down 0.6s 0.3s forwards;
+    -webkit-animation: fade-in-down 0.6s 0.4s forwards;
+    animation: fade-in-down 0.6s 0.4s forwards;
 }
 .home-template .page-title {
     opacity: 0;
-    -webkit-animation: fade-in-down 0.9s 0.2s forwards;
-    animation: fade-in-down 0.9s 0.2s forwards;
+    -webkit-animation: fade-in-down 0.9s 0.3s forwards;
+    animation: fade-in-down 0.9s 0.3s forwards;
 }
 .home-template .page-description {
     opacity: 0;
-    -webkit-animation: fade-in-down 1.2s 0.1s forwards;
-    animation: fade-in-down 1.2s 0.1s forwards;
+    -webkit-animation: fade-in-down 1.2s 0.2s forwards;
+    animation: fade-in-down 1.2s 0.2s forwards;
+}
+.home-template .profile-links {
+    opacity: 0;
+    -webkit-animation: fade-in-down 1.5s 0.1s forwards;
+    animation: fade-in-down 1.5s 0.1s forwards;
 }
 
 /* Every post, on every page, gets this style on its <article> tag */
