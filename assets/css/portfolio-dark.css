@@ -1,5 +1,14 @@
+
+.profile-links .fa-file-text,
+.profile-links .fa-file-text-o,
 .profile-links .fa-file-pdf-o {
     font-size: 85%;
     position: relative;
     bottom: 3px;
+}
+
+.profile-links .fa-envelope,
+.profile-links .fa-envelope-o {
+    position: relative;
+    bottom: 2px;
 }
